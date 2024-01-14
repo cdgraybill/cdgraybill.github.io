@@ -1,10 +1,10 @@
 import "./App.css";
-import NavSection from "./components/navSection";
+import LinkSection from "./components/LinkSection";
 
 function App() {
   return (
     <>
-      <NavSection />
+      <LinkSection />
       <div>
         main site content
       </div>

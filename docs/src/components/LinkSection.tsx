@@ -1,5 +1,5 @@
 
-function NavSection() {
+function LinkSection() {
 
     return (
         <div>
@@ -9,4 +9,4 @@ function NavSection() {
     )
 }
 
-export default NavSection;
+export default LinkSection;
