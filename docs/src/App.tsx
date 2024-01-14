@@ -1,15 +1,15 @@
-import './App.css'
+import "./App.css";
+import NavSection from "./components/navSection";
 
 function App() {
-
   return (
     <>
+      <NavSection />
       <div>
-        a super awesome site will live here one day
+        main site content
       </div>
-      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
