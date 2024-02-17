@@ -5,9 +5,6 @@ function App() {
   return (
     <>
       <LinkSection />
-      <div>
-        main site content
-      </div>
     </>
   );
 }
