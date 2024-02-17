@@ -15,15 +15,35 @@
 
 a {
   font-weight: 500;
-  color: #1b7dd8;
+  color: #dd972f;
   text-decoration: inherit;
   line-height: 1.1;
 }
 a:hover {
-  color: #66a6e2;
+  color: #dfb06a;
 }
 
 h1 {
   font-size: 3.0em;
   line-height: 1.1;
+  animation: fadeIn 1s;
+}
+
+h2 {
+  animation: fadeIn 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+h4 {
+  animation: fadeIn 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
