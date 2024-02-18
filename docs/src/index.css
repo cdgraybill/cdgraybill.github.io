@@ -22,28 +22,3 @@ a {
 a:hover {
   color: #dfb06a;
 }
-
-h1 {
-  font-size: 3.0em;
-  line-height: 1.1;
-  animation: fadeIn 1s;
-}
-
-h2 {
-  animation: fadeIn 1s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-
-h4 {
-  animation: fadeIn 1s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}

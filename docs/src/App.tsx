@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
-import Music from "./components/Music";
+import Home from "./components/Home/Home";
+import Music from "./components/Music/Music";
 
 function App() {
   return (
