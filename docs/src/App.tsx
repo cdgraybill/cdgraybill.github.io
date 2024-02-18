@@ -1,10 +1,19 @@
+import { Link, Route, Routes } from "react-router-dom";
 import "./App.css";
-import LinkSection from "./components/LinkSection";
+import Home from "./components/Home";
+import Music from "./components/Music";
 
 function App() {
   return (
     <>
-      <LinkSection />
+      <nav>
+        <Link to="/"> Home</Link> | 
+        <Link to="/music"> Music</Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/music" element={<Music />}></Route>
+      </Routes>
     </>
   );
 }
