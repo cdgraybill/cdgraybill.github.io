@@ -18,6 +18,13 @@ h4 {
     opacity: 0;
 }
 
+#profile-image {
+    animation: fadeIn 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
