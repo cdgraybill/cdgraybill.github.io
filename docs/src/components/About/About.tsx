@@ -17,7 +17,7 @@ function About() {
           <img 
             id="profile-image"
             src={profileImage} 
-            alt="Profile" 
+            alt="Profile Image" 
             className="w-72 h-72 md:w-96 md:h-96 object-cover rounded-lg shadow-lg"
           />
         </div>
