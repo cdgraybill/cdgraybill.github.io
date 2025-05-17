@@ -3,7 +3,7 @@ import profileImage from "../../assets/profile.jpg";
 
 function About() {
     return (
-      <div className="flex flex-col md:flex-row items-start gap-8 p-4">
+      <div className="flex flex-col md:flex-row items-start gap-8 ">
         <div className="w-full md:w-3/5">
           <h1 className="leading-normal text-5xl font-bold">Shipping code since 2020 🤙</h1>
           <h2 className="leading-normal text-1xl">With working experience spanning from the startup scene all the way to the enterprise world, I've contributed to a wide range of projects. 
