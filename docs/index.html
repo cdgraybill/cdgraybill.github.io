@@ -1,12 +1,93 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cam Graybill</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cam Graybill</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600&display=swap"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <style></style>
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a
+                        href="#"
+                        id="nav-home"
+                        class="active"
+                        onclick="showSection('home', event)"
+                        >Home</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="#"
+                        id="nav-thoughts"
+                        onclick="showSection('thoughts', event)"
+                        >Thoughts</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="#"
+                        id="nav-stuff"
+                        onclick="showSection('stuff', event)"
+                        >Stuff</a
+                    >
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home" class="active">
+                <p class="section-label">// home</p>
+                <h1 class="home-name">Hey there. I'm <strong>Cam</strong></h1>
+                <p class="home-blurb">
+                    I'm a software developer - I like making cool stuff, and
+                    working with driven, passionate teams.
+                </p>
+
+                <div class="socials">
+                    <a
+                        class="social-link"
+                        href="https://github.com/cdgraybill"
+                        target="_blank"
+                        >GitHub</a
+                    >
+                    <a
+                        class="social-link"
+                        href="https://www.linkedin.com/in/camerongraybill/"
+                        target="_blank"
+                        >LinkedIn</a
+                    >
+                </div>
+            </section>
+
+            <section id="thoughts">
+                <p class="section-label">// thoughts</p>
+
+                <div class="post-list">
+                    <p class="empty-state">// no posts yet</p>
+                </div>
+            </section>
+
+            <section id="stuff">
+                <p class="section-label">// stuff</p>
+
+                <div class="stuff-grid">
+                    <div class="stuff-item">
+                        <p class="stuff-item-label">// empty</p>
+                        <p class="stuff-item-title">Coming Soon</p>
+                        <p class="stuff-item-desc">Check back later.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>
