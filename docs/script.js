@@ -1,5 +1,6 @@
 function showSection(id, event) {
   if (event) event.preventDefault();
+
   document
     .querySelectorAll("section")
     .forEach((s) => s.classList.remove("active"));
