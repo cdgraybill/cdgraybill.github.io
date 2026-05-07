@@ -11,9 +11,7 @@ function showSection(id, event) {
   document.getElementById("nav-" + id).classList.add("active");
 }
 
-function changeSkin(id, event) {
-  if (event) event.preventDefault();
-
+function changeSkin(id) {
   switch (id) {
     case "ares":
       document.documentElement.style.setProperty("--nav-selected", "#b83228");
