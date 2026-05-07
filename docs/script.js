@@ -21,7 +21,7 @@ function changeSkin(id, event) {
       document.documentElement.style.setProperty("--text-primary", "#ddddd5");
       break;
     case "volt":
-      document.documentElement.style.setProperty("--nav-selected", "#28FF17");
+      document.documentElement.style.setProperty("--nav-selected", "#00E320");
       document.documentElement.style.setProperty("--bg", "#9E9E9E");
       document.documentElement.style.setProperty("--text-primary", "#0d0d0b");
       break;
